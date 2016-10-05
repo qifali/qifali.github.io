@@ -6,6 +6,7 @@ var techSkills = echarts.init(document.getElementById('techSkills'));
 
 option = {
     title: {
+        show: false,
         text: "Tech Skills",
         left: 'center',
         top: 20,

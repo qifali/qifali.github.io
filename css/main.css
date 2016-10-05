@@ -117,16 +117,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1000px - (4px * 2));
-  max-width: calc(1000px - (4px * 2));
+  max-width: -webkit-calc(1200px - (4px * 2));
+  max-width: calc(1200px - (4px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 4px;
   padding-left: 4px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(1000px - (4px));
-      max-width: calc(1000px - (4px));
+      max-width: -webkit-calc(1200px - (4px));
+      max-width: calc(1200px - (4px));
       padding-right: 2px;
       padding-left: 2px; } }
 
@@ -153,8 +153,10 @@ pre {
  * Blocks
  */
 .block {
-  overflow: hidden;
-  min-height: 200px; }
+  overflow: hidden; }
+  @media (min-width: 800px) {
+    .block {
+      min-height: 200px; } }
   .block .block-body {
     margin: 30px;
     position: relative;
