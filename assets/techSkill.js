@@ -14,6 +14,7 @@ option = {
             color: '#ccc'
         }
     },
+    backgroundColor: "#092d3f",
     tooltip: {
         trigger: 'item',
         formatter: "{a} <br/>{b}: {c} ({d}%)"

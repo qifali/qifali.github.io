@@ -14,9 +14,9 @@ option = {
             color: '#ccc'
         }
     },
+    backgroundColor: "#092d3f",
     tooltip: {},
     legend: {
-//                        data: ['预算分配（Allocated Budget）', '实际开销（Actual Spending）']
         show: false
     },
     radar: {

@@ -122,8 +122,9 @@ pre {
   margin-right: auto;
   margin-left: auto;
   padding-right: 4px;
-  padding-left: 4px; }
-  @media screen and (max-width: 800px) {
+  padding-left: 4px;
+  background: #082736; }
+  @media screen and (max-width: 1000px) {
     .wrapper {
       max-width: -webkit-calc(1200px - (4px));
       max-width: calc(1200px - (4px));
@@ -195,7 +196,7 @@ pre {
     font-size: 14px; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .site-nav {
       position: absolute;
       top: 9px;
@@ -307,7 +308,7 @@ pre {
   width: -webkit-calc(100% - (4px / 2));
   width: calc(100% - (4px / 2)); }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .col-1,
   .col-2,
   .col-3,
@@ -322,7 +323,7 @@ pre {
   .col-12 {
     width: -webkit-calc(100% - (4px / 2));
     width: calc(100% - (4px / 2)); } }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .col {
     float: none;
     width: -webkit-calc(100% - (4px / 2));
@@ -372,7 +373,7 @@ pre {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .post-title {
       font-size: 36px; } }
 
@@ -380,17 +381,17 @@ pre {
   margin-bottom: 4px; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       .post-content h4 {
         font-size: 18px; } }
 
